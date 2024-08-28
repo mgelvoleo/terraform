@@ -1,10 +1,10 @@
-# Setting up Infra on AWS 🚀
+# Setting up Infra on AWS 📝
 
-Step: Create first the IAM user with security credentials
-Step: Install the aws console
-Step: type the aws configure, and add the acess key and secret access key
-Step: make a folder name it with your own
-Step: add provider file in the provider.tf
+**Step 1:**  Create first the IAM user with security credentials
+**Step 2:**  Install the aws console
+**Step 3:** type the aws configure, and add the acess key and secret access key
+**Step 4:**  make a folder name it with your own
+**Step 5:**  add provider file in the provider.tf
 
 ```
 terraform {
@@ -22,4 +22,4 @@ provider "aws" {
 ```
 
 
-Step: Initialize the tf files using teraform init, plan
+**Step 5:**  Initialize the tf files using teraform init, plan
