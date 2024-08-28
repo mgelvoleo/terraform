@@ -27,3 +27,5 @@ provider "aws" {
 
 
 **Step 5:**  Initialize the tf files using teraform init, plan
+
+**Step 5:**  create another tf file name it main.tf
