@@ -6,6 +6,7 @@ Step: type the aws configure, and add the acess key and secret access key
 Step: make a folder name it with your own
 Step: add provider file in the provider.tf
 
+```
 terraform {
   required_providers {
     aws = {
@@ -18,5 +19,7 @@ terraform {
 provider "aws" {
   region  = "us-east-1"
 }
+```
+
 
 Step: Initialize the tf files using teraform init, plan
